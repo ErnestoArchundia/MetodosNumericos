@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(){
+    //CADENAS
+    //ES UN ARRGLO DE CARACTERES 
+    //SIMEPRE SE AGREGA UN ESPACIO AL TAMAÑO DEL ARREGLO "\0"
+
+    char cad[10];
+    int i;
+    printf("INTRODUCE UNA PALABRA \n");
+    scanf("%s", cad);
+    printf("%s", cad);
+
+    return 0;
+}
